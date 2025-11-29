@@ -89,7 +89,7 @@ Top 10 wallets < 20–30%
 
 
 
----
+
 
 ✅ 5. Honeypot test (buy/sell allowed?)
 
@@ -126,7 +126,7 @@ Freeze authority revoked
 
 ---
 
-🔥 2. Solscan "Creator history" অবশ্যই দেখো
+🔥 2. Solscan "Creator history অবশ্যই দেখো
 
 Creator আগেও scam করেছে কিনা instantly দেখাবে।
 
@@ -154,3 +154,218 @@ Photon
 💬 চাইলে তুমি আমাকে একটি contract address দাও — আমি লাইভ চেক করে দেব
 
 আমি প্রফেশনালভাবে ৩০ সেকেন্ডে বলতে পারবো token টা rug/scam কিনা।
+
+
+
+
+
+
+actualy how to buy a token 
+ঠিক আছে bro — তুমি নিজেই করবা। আমি তোমাকে একদম শুরু থেকে শেষ পর্যন্ত full practical steps দিয়ে দিচ্ছি।
+এখন তুমি শুধু এই stepsগুলো follow করবে যখন তোমার কাছে contract address আছে।
+
+এটাই হলো Solana memecoin scam-check করার সবচেয়ে fast practical method।
+
+
+---
+
+✅ STEP 1 — Contract Address → Birdeye তে Paste করবে
+
+Website: birdeye.so
+
+1. Search bar-এ contract address দাও
+
+
+2. Token খুলে গেলে এগুলো দেখো:
+
+
+
+🔍 A) Liquidity Check
+
+Liquidity (LP) > $40k = OK
+
+Liquidity < $15k = 90% rug signal
+
+Liquidity < $5k = DO NOT BUY
+
+
+🔍 B) LP Lock Check
+
+Birdeye-এ “Pool Info” / “Liquidity Lock” দেখাবে:
+
+Locked = Good
+
+Unlocked = 99% rug
+
+
+🔍 C) Volume Check
+
+First 10 min volume > $5k = natural
+
+First 1 min volume $500–$1k = sniper heavy (danger)
+
+
+
+---
+
+✅ STEP 2 — Solscan.io এ Contract Address → Token খুলবে
+
+🔍 A) Mint Authority Check
+
+Solscan → Token → “Mint Authority”
+
+Mint Authority: Disabled/None → Good
+
+Mint Authority: Enabled → INSTANT SCAM → quit
+
+
+🔍 B) Freeze Authority Check
+
+Solscan → Token → “Freeze Authority”
+
+Freeze: Disabled/None → Good
+
+Freeze: Enabled → scam (your tokens can be frozen)
+
+
+🔍 C) Supply Movement
+
+Activity tab দেখো:
+
+Dev wallet token send করছে? → scam
+
+Supply increase হচ্ছে? → minting → scam
+
+
+
+---
+
+✅ STEP 3 — Holders Tab Check (Solscan or Birdeye)
+
+🔍 A) Top wallet distribution
+
+Top 1 wallet < 10%? → Safe
+
+Top 1 wallet > 30%? → scam
+
+Dev wallet > 5%? → scam risk
+
+
+🔍 B) Liquidity tokens কে ধরে রেখেছে?
+
+Holders → LP token দেখবে:
+
+LP token burn address বা lock address এ → Good
+
+LP token dev wallet এ → 99% rug
+
+
+
+---
+
+✅ STEP 4 — RugCheck.xyz এ Token Scan করবে
+
+Go to: rugcheck.xyz
+
+Paste contract address → Scan
+
+এখানে দেখাবে:
+
+Buy tax
+
+Sell tax
+
+LP status
+
+Risk analysis
+
+
+✔ Good:
+
+Buy/Sell tax: 0%
+
+No blacklist functions
+
+No minting
+
+No freezing
+
+LP locked
+
+
+❌ Bad:
+
+Sell tax > 5%
+
+Mint enabled
+
+Freeze enabled
+
+LP unlocked
+
+Honeypot detected
+
+
+
+---
+
+✅ STEP 5 — Sniper Bot & Launch Pattern Check (Birdeye)
+
+Birdeye → Trades tab
+
+দেখো launch এর সাথে সাথে:
+
+যদি 50+ sniper buys হয় → Pump → Dump → HIGH RISK
+
+যদি 5–15 buyer হয় → বেশি natural → healthy launch
+
+
+
+---
+
+🟢 সবকিছু মিলিয়ে Final Decision Logic:
+
+✔ BUY ONLY IF:
+
+LP > $40,000
+
+LP locked
+
+Mint disabled
+
+Freeze disabled
+
+Top wallet < 10%
+
+Dev wallet supply < 5%
+
+Sell tax = 0%
+
+Sniper buys < 20
+
+No blacklist function
+
+
+❌ DO NOT BUY IF:
+
+LP unlocked
+
+Mint authority enabled
+
+1 wallet 40%+ supply ধরে
+
+Volume too low
+
+Snipers 40–100
+
+Sell tax high
+
+Liquidity < $10k
+
+
+
+---
+
+যদি তুমি চাও, তুমি তোমার contract address copy করে এই 5 step follow করে check করে আমাকে বলো “Result কী পেলাম?”
+
+আমি তোমার data দেখে final verdict দেবো।
